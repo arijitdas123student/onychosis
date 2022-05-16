@@ -3,6 +3,8 @@ Onychosis (Nail Disease) classifier using Raspberry Pi 4 and Edge Impulse.
 
 # Instructions to Run the ML Model
 
+Copy **API Key** from Edge Impulse Studio **Dashboard** page and save it somewhere you can access in the future.
+
 Open **Terminal** and type the following commands: 
 
 ```$ cp /etc/xdg/lxsession/LXDE-pi/autostart ~/.config/lxsession/LXDE-pi/```
@@ -15,6 +17,6 @@ Then edit the file by adding the following lines:
 @pcmanfm --desktop --profile LXDE-pi
 #@xscreensaver -no-splash
 point-rpi
-chromium --start https://smartphone.edgeimpulse.com/classifier.html?apiKey=ei_171ba15b5f3a4ea267c48625cad0b11dc093f8dfb1fad7c8a5a0d2470d336ae8``
+chromium --start https://smartphone.edgeimpulse.com/classifier.html?apiKey=[PUT YOUR API KEY HERE]``
 
 Then exit, save and do a ```sudo reboot now```.
